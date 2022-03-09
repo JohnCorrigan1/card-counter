@@ -6,4 +6,6 @@
  - css
  - javascript
 
+### Demo of the app in action
+
 ![How it Works](demo.gif)
