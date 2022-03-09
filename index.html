@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>So you want to count cards?</h1>
+    <div id="container">
+        <div id="number">0</div>
+        <button id="increment">+</button>
+        <button id="decrement">-</button>
+    </div>
+
+    <div id="counting-rules">
+        <h2>The Rules</h2>
+            <p>First you must understand blackjack <a href="https://www.blackjackapprenticeship.com/blackjack-strategy-charts/">basic strategy.</a></p>
+            <p class="long-line">Counting cards is easier than most people are led to believe. You don't have to memorize every card that passes through the deck rather you keep track of a count and add or subtract from the count depending on the cards that are played.</p>
+            <ul>
+                <li>Add one to the count each time you see: 2, 3, 4, 5, or 6</li>
+                <li>Do nothing for:                         7, 8, 9</li>
+                <li>Subtract one when you see:              10, J, Q, K, A</li>
+            </ul>
+            <p class="long-line">If you are consistenly playing perfect basic strategy, while the running count is positive the player has the advantage. While the count is negative the dealer has the advantage. The higher or lower the count the greater the odds for or against the player.</p>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
